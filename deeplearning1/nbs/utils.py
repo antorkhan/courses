@@ -1,6 +1,6 @@
 from __future__ import division,print_function
 import math, os, json, sys, re
-import cPickle as pickle
+import pickle
 from glob import glob
 import numpy as np
 from matplotlib import pyplot as plt
@@ -17,7 +17,7 @@ from numpy import newaxis
 import scipy
 from scipy import misc, ndimage
 from scipy.ndimage.interpolation import zoom
-from scipy.ndimage import imread
+from matplotlib.pyplot import imread
 from sklearn.metrics import confusion_matrix
 import bcolz
 from sklearn.preprocessing import OneHotEncoder
